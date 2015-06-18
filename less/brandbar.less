@@ -3,7 +3,9 @@
 // -----------------------------------------
 
 .app-brandbar {
-    padding: @line-height-computed;
+  //padding: @line-height-computed;
+    padding: 2rem 0em 1rem 0rem;
+    background-color: #0077AA;
 }
 
 .app-brandbar-content {
@@ -17,6 +19,7 @@
 
 // The actual brandname
 .app-brand-title {
+  padding-bottom: 15px;
   .make-md-column(4);
   .app-brandname {
     .h3();
@@ -25,10 +28,23 @@
     }
   }
 }
+
+
+
 // Sitewide claim
 .app-brand-claim {
   .make-md-column(8);
   .app-claim {
     .h5();
   }
+}
+
+.app-brand-claim .app-claim {
+    font-family: inherit;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 1.1;
+    margin-top: 0;
+    margin-bottom: 0.714286rem;
+    color: #fff;
 }

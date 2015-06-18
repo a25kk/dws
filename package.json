@@ -4,7 +4,12 @@
   "version": "1.0.0",
   "homepage": "http://ade25.de/dws",
   "author": "Ade25",
-  "keywords": ["diazo", "theme", "bootstrap", "css"],
+  "keywords": [
+    "diazo",
+    "theme",
+    "bootstrap",
+    "css"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/a25kk/dws.git"
