@@ -6461,7 +6461,11 @@ h3
 }
 .app-footer
 {
+    font-size: .8rem;
+
     padding: 1rem 0 1.42857rem;
+
+    background-color: #ccc;
 }
 .app-footer p
 {

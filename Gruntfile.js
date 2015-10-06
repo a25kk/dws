@@ -419,7 +419,7 @@ module.exports = function (grunt) {
             },
             dist: {
                 options: {
-                    url: 'http://rms.kreativkombinat.de',
+                    url: 'http://dws.kreativkombinat.de',
                     paths: ['/itemview', '/signin'],
                     locale: 'de_DE',
                     strategy: 'desktop',
